@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Weapon Detection
+Icon=weapon-detection-demo.png
+Type=Application
+Exec=/usr/bin/env bash -lc 'cd "$HOME/aries-weapon-detection-demo" && ./run.sh'
+Terminal=true

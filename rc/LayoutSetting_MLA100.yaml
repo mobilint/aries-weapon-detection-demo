@@ -1,0 +1,48 @@
+image_layout:
+  - path: ../rc/layout/layout.png
+    roi: [0, 0, 1920, 1080]
+
+worker_layout:
+  # Grid: 6 cols x 5 rows within 1920x1080, top margin 137 유지
+  # col width: 320
+  # row heights: 188,188,188,188,191
+
+  # Row 1 (y: 137, h: 188)
+  - {feeder_index: 0, model_index: 0, roi: [0, 137, 320, 188]}
+  - {feeder_index: 1, model_index: 0, roi: [320, 137, 320, 188]}
+  - {feeder_index: 2, model_index: 0, roi: [640, 137, 320, 188]}
+  - {feeder_index: 3, model_index: 0, roi: [960, 137, 320, 188]}
+  - {feeder_index: 4, model_index: 0, roi: [1280, 137, 320, 188]}
+  - {feeder_index: 5, model_index: 0, roi: [1600, 137, 320, 188]}
+
+  # Row 2 (y: 325, h: 188)
+  - {feeder_index: 6, model_index: 0, roi: [0, 325, 320, 188]}
+  - {feeder_index: 7, model_index: 0, roi: [320, 325, 320, 188]}
+  - {feeder_index: 8, model_index: 0, roi: [640, 325, 320, 188]}
+  - {feeder_index: 9, model_index: 0, roi: [960, 325, 320, 188]}
+  - {feeder_index: 10, model_index: 0, roi: [1280, 325, 320, 188]}
+  - {feeder_index: 11, model_index: 0, roi: [1600, 325, 320, 188]}
+
+  # Row 3 (y: 513, h: 188)
+  - {feeder_index: 12, model_index: 0, roi: [0, 513, 320, 188]}
+  - {feeder_index: 13, model_index: 0, roi: [320, 513, 320, 188]}
+  - {feeder_index: 14, model_index: 0, roi: [640, 513, 320, 188]}
+  - {feeder_index: 15, model_index: 0, roi: [960, 513, 320, 188]}
+  - {feeder_index: 16, model_index: 0, roi: [1280, 513, 320, 188]}
+  - {feeder_index: 17, model_index: 0, roi: [1600, 513, 320, 188]}
+
+  # Row 4 (y: 701, h: 188)
+  - {feeder_index: 18, model_index: 0, roi: [0, 701, 320, 188]}
+  - {feeder_index: 19, model_index: 0, roi: [320, 701, 320, 188]}
+  - {feeder_index: 20, model_index: 0, roi: [640, 701, 320, 188]}
+  - {feeder_index: 21, model_index: 0, roi: [960, 701, 320, 188]}
+  - {feeder_index: 22, model_index: 0, roi: [1280, 701, 320, 188]}
+  - {feeder_index: 23, model_index: 0, roi: [1600, 701, 320, 188]}
+
+  # Row 5 (y: 889, h: 191)
+  - {feeder_index: 24, model_index: 0, roi: [0, 889, 320, 191]}
+  - {feeder_index: 25, model_index: 0, roi: [320, 889, 320, 191]}
+  - {feeder_index: 26, model_index: 0, roi: [640, 889, 320, 191]}
+  - {feeder_index: 27, model_index: 0, roi: [960, 889, 320, 191]}
+  - {feeder_index: 28, model_index: 0, roi: [1280, 889, 320, 191]}
+  - {feeder_index: 29, model_index: 0, roi: [1600, 889, 320, 191]}

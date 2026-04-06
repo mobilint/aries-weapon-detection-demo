@@ -1,0 +1,4 @@
+- model_type: YOLO26
+  mxq_path: ../mxq/yolo26s-weapon_uint8_input.mxq
+  dev_no: 0
+  num_core: 8
