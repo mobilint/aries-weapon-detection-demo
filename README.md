@@ -1,9 +1,7 @@
 # Notice
 
-This repository is no longer maintained.
-
-Ongoing development has moved to `aries-cv-demo`.
-
+This repository is no longer maintained.  
+Ongoing development has moved to `aries-cv-demo`.  
 This repository is kept for reference only.
 
 ---
