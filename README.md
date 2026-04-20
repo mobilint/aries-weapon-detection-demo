@@ -1,3 +1,12 @@
+# Notice
+
+This repository is no longer maintained.
+
+Ongoing development has moved to `aries-cv-demo`.
+
+This repository is kept for reference only.
+
+---
 # ARIES Weapon Detection Demo
 
 This project is a multi-channel weapon detection demo for MLA100-based systems. The current default configuration uses one `YOLO26` model and 30 local video feeders.
